@@ -62,4 +62,3 @@ class QLearning(object):
         else:
             return
 
-
