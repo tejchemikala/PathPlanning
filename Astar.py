@@ -10,7 +10,7 @@ def getQvalues(board):
 
 def getQvalues_Qnetwork(board):
     q_learning = QLearning_NET(board)
-    q_learning.learn(num_episodes=60)
+    q_learning.learn(num_episodes=500)
     return q_learning
 
 def heuristic_distance(start_node, direction,qTable,bool_net):
